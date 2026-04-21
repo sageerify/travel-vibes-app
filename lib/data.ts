@@ -53,23 +53,23 @@ export interface Review {
 }
 
 export const categories = [
-  { id: "hunza", name: "Hunza", image: "https://images.unsplash.com/photo-1586076545232-6c787bafc2b0?w=400&h=300&fit=crop" },
-  { id: "skardu", name: "Skardu", image: "https://images.unsplash.com/photo-1620735692151-26a7e0748f5d?w=400&h=300&fit=crop" },
-  { id: "gilgit", name: "Gilgit", image: "https://images.unsplash.com/photo-1623850804666-14b1c6e6a7ab?w=400&h=300&fit=crop" },
+  { id: "hunza", name: "Hunza", image: "/hunza.png" },
+  { id: "skardu", name: "Skardu", image: "/skardu.jpg" },
+  { id: "gilgit", name: "Gilgit", image: "/gilgit.jpg" },
   { id: "nature", name: "Nature", image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" },
-  { id: "culture", name: "Culture", image: "https://images.unsplash.com/photo-1590077428593-a55bb07c4665?w=400&h=300&fit=crop" },
+  { id: "culture", name: "Culture", image: "culture.png" },
 ]
 
 export const guides: Guide[] = [
   {
     id: "guide-1",
-    name: "Ali Hassan",
+    name: "Sageer Ahmed",
     location: "Hunza Valley",
     rating: 4.9,
     reviewCount: 127,
     price: 150,
     priceUnit: "per day",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+    image: "/person1.jpeg",
     bio: "Born and raised in Hunza Valley, I have spent over 15 years guiding travelers through the majestic landscapes of Gilgit-Baltistan. My deep knowledge of local trails, hidden gems, and cultural traditions makes every journey unforgettable.",
     languages: ["English", "Urdu", "Burushaski"],
     specialties: ["Trekking", "Cultural Tours", "Photography Spots"],
@@ -77,13 +77,13 @@ export const guides: Guide[] = [
   },
   {
     id: "guide-2",
-    name: "Fatima Khan",
+    name: "Muzammil",
     location: "Skardu",
     rating: 4.8,
     reviewCount: 89,
     price: 120,
     priceUnit: "per day",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
+    image: "/person2.png",
     bio: "As one of the first female guides in the region, I specialize in creating safe and enriching experiences for solo travelers and groups. My tours blend adventure with authentic cultural immersion.",
     languages: ["English", "Urdu", "Balti"],
     specialties: ["Women-friendly Tours", "Lake Tours", "Village Visits"],
@@ -122,13 +122,13 @@ export const guides: Guide[] = [
 export const photographers: Photographer[] = [
   {
     id: "photo-1",
-    name: "Karim Hussain",
+    name: "Sageer Ahmed",
     location: "Hunza Valley",
     rating: 5.0,
     reviewCount: 94,
     price: 250,
     priceUnit: "per shoot",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
+    image: "/photographer.jpeg",
     bio: "Award-winning landscape and travel photographer with work featured in National Geographic and Lonely Planet. I capture the raw beauty of Gilgit-Baltistan like no other.",
     portfolio: [
       "https://images.unsplash.com/photo-1586076545232-6c787bafc2b0?w=600&h=400&fit=crop",
