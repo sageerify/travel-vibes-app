@@ -27,7 +27,6 @@ Built with performance, scalability, and real-world usability in mind, this proj
 
 ![Hero Image](https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1600)
 
-![Tour](https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1600)
 
 ## 🎯 Features
 
@@ -146,6 +145,8 @@ This project is licensed under the MIT License.
 
 **Sageer Ahmed**
 Aspiring Full Stack Developer 🚀
+![Tour](https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1600)
+
 
 ---
 
