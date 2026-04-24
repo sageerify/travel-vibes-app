@@ -61,7 +61,22 @@ export const categories = [
 ]
 
 export const guides: Guide[] = [
+
   {
+    id: "guide-2",
+    name: "Saira Boloach",
+    location: "Skardu",
+    rating: 4.8,
+    reviewCount: 89,
+    price: 120,
+    priceUnit: "per day",
+    image: "https://images.unsplash.com/photo-1549981832-2ba2ee913334?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    bio: "As one of the first female guides in the region, I specialize in creating safe and enriching experiences for solo travelers and groups. My tours blend adventure with authentic cultural immersion.",
+    languages: ["English", "Urdu", "Balti"],
+    specialties: ["Women-friendly Tours", "Lake Tours", "Village Visits"],
+    type: "guide",
+  },
+    {
     id: "guide-1",
     name: "Sageer Ahmed",
     location: "Hunza Valley",
@@ -73,20 +88,6 @@ export const guides: Guide[] = [
     bio: "Born and raised in Hunza Valley, I have spent over 15 years guiding travelers through the majestic landscapes of Gilgit-Baltistan. My deep knowledge of local trails, hidden gems, and cultural traditions makes every journey unforgettable.",
     languages: ["English", "Urdu", "Burushaski"],
     specialties: ["Trekking", "Cultural Tours", "Photography Spots"],
-    type: "guide",
-  },
-  {
-    id: "guide-2",
-    name: "Muzammil",
-    location: "Skardu",
-    rating: 4.8,
-    reviewCount: 89,
-    price: 120,
-    priceUnit: "per day",
-    image: "/person2.png",
-    bio: "As one of the first female guides in the region, I specialize in creating safe and enriching experiences for solo travelers and groups. My tours blend adventure with authentic cultural immersion.",
-    languages: ["English", "Urdu", "Balti"],
-    specialties: ["Women-friendly Tours", "Lake Tours", "Village Visits"],
     type: "guide",
   },
   {
@@ -122,13 +123,13 @@ export const guides: Guide[] = [
 export const photographers: Photographer[] = [
   {
     id: "photo-1",
-    name: "Sageer Ahmed",
+    name: "Zayn Safi",
     location: "Hunza Valley",
     rating: 5.0,
     reviewCount: 94,
     price: 250,
     priceUnit: "per shoot",
-    image: "/photographer.jpeg",
+    image: "https://plus.unsplash.com/premium_photo-1674389991679-e1a7a0b3e0a7?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     bio: "Award-winning landscape and travel photographer with work featured in National Geographic and Lonely Planet. I capture the raw beauty of Gilgit-Baltistan like no other.",
     portfolio: [
       "https://images.unsplash.com/photo-1586076545232-6c787bafc2b0?w=600&h=400&fit=crop",
