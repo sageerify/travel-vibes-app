@@ -24,14 +24,11 @@ Built with performance, scalability, and real-world usability in mind, this proj
 
 ## 📸 Preview
 
-![Hero Image](https://source.unsplash.com/1600x900/?mountains,travel)
+![Hero Image](https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1600)
 
-![Tour](https://source.unsplash.com/1600x900/?hiking,mountains)
+![Tour](https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1600)
 
-![Photographer](https://source.unsplash.com/1600x900/?photographer,nature)
-
----
-
+![Photographer](https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1600)
 ## 🎯 Features
 
 ### 🧳 For Travelers
