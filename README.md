@@ -10,7 +10,7 @@
 **Travel Vibes** is designed to connect travelers with:
   
 * 🧭 Local tour guides 
-* 📸 Professional photographers 
+* 📸 Professional photographers  
 * 🏔️ Unique travel experiences  
 
 Built with performance, scalability, and real-world usability in mind, this project demonstrates full-stack development skills for production-level applications.
