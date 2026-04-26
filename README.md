@@ -4,7 +4,7 @@
 > 
 ![Photographer](https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1600)
 
---- 
+---  
 ## ✨ Overview
 
 **Travel Vibes** is designed to connect travelers with:
