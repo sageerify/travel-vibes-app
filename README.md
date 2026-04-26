@@ -11,7 +11,7 @@
 
 * 🧭 Local tour guides 
 * 📸 Professional photographers 
-* 🏔️ Unique travel experiences
+* 🏔️ Unique travel experiences 
 
 Built with performance, scalability, and real-world usability in mind, this project demonstrates full-stack development skills for production-level applications.
 
