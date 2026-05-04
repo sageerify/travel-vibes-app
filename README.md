@@ -1,6 +1,6 @@
 # 🌍 Travel Vibes — Explore Gilgit-Baltistan
 
-> A modern **Next.js full-stack travel platform** for discovering tours, booking guides, and hiring photographers across Gilgit-Baltistan.
+> A modern **Next.js full-stack travel platform** for discovering tours, booking guides, and hiring photographers across Gilgit-Baltistan. 
 > 
 ![Photographer](https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1600)
 
