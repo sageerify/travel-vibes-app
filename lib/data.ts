@@ -7,7 +7,9 @@ export interface Guide {
   price: number
   priceUnit: string
   image: string
+  coverPhoto: string
   bio: string
+  portfolio?: string[]
   languages: string[]
   specialties: string[]
   type: "guide"
@@ -61,7 +63,6 @@ export const categories = [
 ]
 
 export const guides: Guide[] = [
-
   {
     id: "guide-2",
     name: "Saira Boloach",
@@ -71,12 +72,13 @@ export const guides: Guide[] = [
     price: 120,
     priceUnit: "per day",
     image: "https://images.unsplash.com/photo-1549981832-2ba2ee913334?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    coverPhoto: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=400&fit=crop",
     bio: "As one of the first female guides in the region, I specialize in creating safe and enriching experiences for solo travelers and groups. My tours blend adventure with authentic cultural immersion.",
     languages: ["English", "Urdu", "Balti"],
     specialties: ["Women-friendly Tours", "Lake Tours", "Village Visits"],
     type: "guide",
   },
-    {
+  {
     id: "guide-1",
     name: "Sageer Ahmed",
     location: "Hunza Valley",
@@ -85,6 +87,7 @@ export const guides: Guide[] = [
     price: 150,
     priceUnit: "per day",
     image: "/person1.jpeg",
+    coverPhoto: "https://source.unsplash.com/random/1200x400/?hunza,valley,karakoram",
     bio: "Born and raised in Hunza Valley, I have spent over 15 years guiding travelers through the majestic landscapes of Gilgit-Baltistan. My deep knowledge of local trails, hidden gems, and cultural traditions makes every journey unforgettable.",
     languages: ["English", "Urdu", "Burushaski"],
     specialties: ["Trekking", "Cultural Tours", "Photography Spots"],
@@ -99,6 +102,7 @@ export const guides: Guide[] = [
     price: 100,
     priceUnit: "per day",
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
+    coverPhoto: "https://source.unsplash.com/random/1200x400/?gilgit,mountains,trek",
     bio: "With a background in mountaineering and outdoor education, I offer expert-led expeditions to some of the most challenging and rewarding peaks in the Karakoram range.",
     languages: ["English", "Urdu", "Shina"],
     specialties: ["Mountaineering", "Base Camp Treks", "Adventure Sports"],
@@ -113,6 +117,7 @@ export const guides: Guide[] = [
     price: 130,
     priceUnit: "per day",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
+    coverPhoto: "https://source.unsplash.com/random/1200x400/?silk,road,heritage,fort",
     bio: "History and archaeology enthusiast offering specialized tours of ancient forts, rock carvings, and historical sites throughout Gilgit-Baltistan.",
     languages: ["English", "Urdu", "Wakhi"],
     specialties: ["Historical Tours", "Archaeological Sites", "Silk Road Heritage"],
@@ -132,17 +137,17 @@ export const photographers: Photographer[] = [
     image: "https://plus.unsplash.com/premium_photo-1674389991679-e1a7a0b3e0a7?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     bio: "Award-winning landscape and travel photographer with work featured in National Geographic and Lonely Planet. I capture the raw beauty of Gilgit-Baltistan like no other.",
     portfolio: [
-      "https://images.unsplash.com/photo-1586076545232-6c787bafc2b0?w=600&h=400&fit=crop",
       "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop",
       "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&h=400&fit=crop",
       "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1554080353-a576cf803bda?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     ],
     specialties: ["Landscape", "Adventure", "Astrophotography"],
     type: "photographer",
   },
   {
     id: "photo-2",
-    name: "Sana Baloch",
+    name: "Sana Akhtar",
     location: "Skardu",
     rating: 4.9,
     reviewCount: 67,
@@ -151,7 +156,7 @@ export const photographers: Photographer[] = [
     image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
     bio: "Specializing in portrait and documentary photography, I tell the stories of travelers against the backdrop of the world's most stunning mountains.",
     portfolio: [
-      "https://images.unsplash.com/photo-1620735692151-26a7e0748f5d?w=600&h=400&fit=crop",
+      "https://plus.unsplash.com/premium_photo-1661389666583-205b0ba91737?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "https://images.unsplash.com/photo-1464278533981-50106e6176b1?w=600&h=400&fit=crop",
       "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600&h=400&fit=crop",
       "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=600&h=400&fit=crop",
@@ -170,10 +175,10 @@ export const photographers: Photographer[] = [
     image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop",
     bio: "Drone and aerial photography specialist offering unique perspectives of valleys, glaciers, and mountain peaks that you've never seen before.",
     portfolio: [
-      "https://images.unsplash.com/photo-1623850804666-14b1c6e6a7ab?w=600&h=400&fit=crop",
       "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&h=400&fit=crop",
       "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=600&h=400&fit=crop",
       "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1500534623283-312aade485b7?w=600&h=400&fit=crop",
     ],
     specialties: ["Drone Photography", "Aerial Shots", "Cinematic Videos"],
     type: "photographer",
