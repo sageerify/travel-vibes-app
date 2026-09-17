@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Login Form</title>
+<style>
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 500px;
+    margin: 60px auto;
+    border: 1px solid #333;
+  }
+
+  td, th {
+    border: 1px solid #333;
+    padding: 12px;
+  }
+
+  .header {
+    background-color: #3300ff;
+    color: #f0f0f0;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 14px;
+  }
+
+  .label-cell {
+    width: 140px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 90%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+  }
+
+  .submit-cell {
+    text-align: center;
+    padding: 16px;
+  }
+
+  input[type="submit"] {
+    background-color: #3300ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 24px;
+    font-size: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #2200cc;
+  }
+</style>
+</head>
+<body>
+
+<form action="#" method="post">
+  <table>
+    <tr>
+      <td colspan="2" class="header">Login Form</td>
+    </tr>
+    <tr>
+      <td class="label-cell">ID</td>
+      <td><input type="text" name="id" required></td>
+    </tr>
+    <tr>
+      <td class="label-cell">Password</td>
+      <td><input type="password" name="password" required></td>
+    </tr>
+    <tr>
+      <td colspan="2" class="submit-cell">
+        <input type="submit" value="Submit">
+      </td>
+    </tr>
+  </table>
+</form>
+
+</body>
+</html>
